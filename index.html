@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb-Toggler</title>
+    <link rel="stylesheet" href="style.css"/>
+
+</head>
+
+<body class="ap">
+    <h1 class="vsn"><b><i><u><span class="bulb-container">Bulb-Toggler</span></u></i></b></h1>
+
+    <img src="./lightbulb-off.png" class="img-lightbulb" id="img-bulb" />
+
+    <div class="btn-container">
+        <button type="button" class="btn-toggler" onclick="toggleBulb('on')">
+            ON</button>
+        <button type="button" class="btn-toggler" onclick="toggleBulb('off')">
+            OFF</button>
+    </div>
+    <script>
+        function toggleBulb(state) {
+            const bulbElement = document.getElementById("img-bulb")
+            bulbElement.src = state == 'on' ? "./lightbulb-on.png" : "./lightbulb-off.png"
+        }
+
+    </script>
+</body>
+
+</html>
