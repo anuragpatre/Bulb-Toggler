@@ -1,0 +1,25 @@
+.ap{
+    background-color:rgb(244, 235, 235)
+}
+.vsn{
+    text-align:center;
+ 
+}
+.bulb-container{
+    background-color: rgb(195, 234, 234);
+}
+.img-lightbulb{
+    height: 150px;
+    display: block;
+    margin: 20px auto;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn-toggler{
+    margin: 10px 20px;
+    width: 80px;
+    cursor: pointer;
+    background-color: rgb(220, 236, 236);
+}
